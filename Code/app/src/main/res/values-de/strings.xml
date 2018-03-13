@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Foodsharing</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Titles -->
+    <string name="title_activity_search__browse">Search_Browse</string>
+    <string name="title_activity_result">ResultActivity</string>
+    <string name="title_activity_transaction_history">TransactionHistoryActivity</string>
+    <string name="title_activity_edit_offer">EditOffer</string>
+    <string name="title_activity_display_offer">DisplayOfferActivity</string>
+    <string name="title_activity_profile_edit">Edit profile</string>
+    <string name="title_activity_profile_display">ProfileDisplayActivity</string>
+    <string name="title_activity_account_edit">AccountEditActivity</string>
+    <string name="title_activity_account_display">AccountDisplayActivity</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="title_activity_edit_search">EditSearchActivity</string>
+
+
+
+    <!-- activity elements -->
+    <!-- text views -->
+    <string name="browse_tv">Teile Lebensmittel!</string>
+    <string name="create_tv">Erstellen/ Edit</string>
+    <string name="create_edit_tv">Erstellen/ Ändern</string>
+    <string name="result_tv">Ergebnis</string>
+    <string name="profile_title_tv">Profil</string>
+    <string name="profile_edit_last_name_tv">Familienname</string>
+    <string name="profile_edit_first_name_tv">Vorname</string>
+    <string name="title_tv">Titel</string>
+    <string name="best_before_tv">Haltbar bis</string>
+    <string name="detailed_description_tv">Beschreibung</string>
+    <string name="create_offer_tv">Angebot erstellen</string>
+    <string name="offer_display_get_location_tv">Ort</string>
+    <string name="offer_display_contact_info_tv">Kontaktinfo</string>
+    <string name="offerDisplayDateAdded">Angebot erstellt</string>
+    <string name="offerDisplayBestBeforeDate">MHD</string>
+    <string name="edit_latest_offer_tv">Letztes Angebot</string>
+    <string name="passwort_tv">Passwort</string>
+    <string name="username_tv">Username</string>
+    <string name="profile_display_username_tv">Username</string>
+    <string name="profile_display_password_tv">******</string>
+    <string name="transaction_history_title_tv">Transactionen</string>
+    <string name="transaction_edit_tv">Transaction bearbeiten</string>
+    <string name="profile_displ_country_tv">Land</string>
+    <string name="published_offers_tv">Meine Angebote</string>
+    <string name="accepted_offers_tv">Erhaltenes</string>
+    <string name="resultActivityResultListTitle">Ergebnisse</string>
+    <string name="resultActivitySorterLabel">Sortiere nach:</string>
+
+
+    <!-- buttons -->
+    <string name="items">Artikel</string>
+    <string name="search_location_btn">Standort</string>
+    <string name="search_category_btn">Kategorie</string>
+    <string name="existing_offers_btn">Aktuelle Angebote</string>
+    <string name="search_profile_btn">Profile</string>
+    <string name="edit_profile_btn">Profil bearbeiten</string>
+    <string name="new_offer_btn">Neues /nAngebot</string>
+    <string name="browse_btn">Suche in</string>
+    <string name="show_location_btn">Standort</string>
+    <string name="show_contact_information_btn">Zeige Kontakt</string>
+    <string name="place_order_btn">Erstellen</string>
+    <string name="add_contact_info">Kontakt hinzufügen</string>
+    <string name="publish_offer_btn">Erstellen</string>
+    <string name="get_location_btn">Standort</string>
+    <string name="new_profile_btn">Neues Profil</string>
+
+    <string name="save_btn">Speichern</string>
+    <string name="account_edit_save_btn">Speichern</string>
+    <string name="profile_edit_save_btn">Speichern</string>
+
+    <string name="account_display_cancel_btn">Abbrechen</string>
+    <string name="account_edit_cancel_btn">Abbrechen</string>
+    <string name="transaction_cancel_btn">Abbrechen</string>
+    <string name="profile_display_cancle_btn">Abbrechen</string>
+
+    <string name="account_display_edit_btn">Bearbeiten</string>
+    <string name="edit_offer_btn">Bearbeiten</string>
+    <string name="profile_display_edit_btn">Bearbeiten</string>
+
+    <string name="offer_create_add_picture_btn">Bild hinzufügen</string>
+    <string name="transaction_close_tr_btn">Schließen</string>
+    <string name="transaction_back_btn">Zurück</string>
+
+    <!-- edit texts -->
+    <string name="offer_create_title_et">Bezeichnung</string>
+    <string name="best_before_date_edit">Haltbar bis</string>
+    <string name="detailed_description_et">Beschreibung</string>
+    <string name="searching_for_hint">Angebot</string>
+    <string name="profile_edit_street_address_et">Straße</string>
+    <string name="profile_edit_street_address_no_et">Nr.</string>
+    <string name="profile_edit_zipcode_et">PLZ</string>
+    <string name="profile_edit_place_of_res_et">Wohnort</string>
+    <string name="profile_edit_phone_et">Telefonnummer</string>
+    <string name="profile_edit_email_et">Email</string>
+    <string name="username_et">Username</string>
+    <string name="profile_display_show_tr_history">Transaktionen</string>
+    <string name="profile_edit_country_et">Land</string>
+    <string name="offer_display_short_description_tv">Kurzbeschreibung</string>
+    <string name="offer_display_best_before_tv">Haltbar bis</string>
+    <string name="offer_display_pick_up_tv">Abholdatum</string>
+    <string name="offer_category_tv">Kategorie</string>
+    <string name="logo">Logo</string>
+    <string name="edit_search_go_btn">Los!</string>
+    <string name="edit_search_et">Suche in…</string>
+    <string name="browse_create_new_offer_btn">Neues Angebot</string>
+    <string name="browse_create_edit_offer_btn">Meine Angebote bearbeiten</string>
+    <string name="browse_create_edit_profile_btn">Suche Profil</string>
+    <string name="choose_category_btn">Wähle Kategorie</string>
+    <string name="choose_mhd_btn">Wähle Haltbarkeit</string>
+    <string name="offer_edit_choose_pick_date_btn">Abholdatum</string>
+    <string name="offer_category_edit">Kategorie</string>
+    <string name="action_sign_in">Einloggen oder Registrieren</string>
+    <string name="account_display_save_btn">Speichern</string>
+    <string name="action_sign_in_short">Einloggen</string>
+    <string name="error_incorrect_password">Falsches Passwort</string>
+    <string name="error_invalid_email">Ungültige E-Mail-Adresse</string>
+    <string name="error_invalid_password">Passwort zu kurz</string>
+    <string name="error_field_required">Dieses Feld wird benötigt</string>
+    <string name="plus_disconnect">Verbindung mit Google+ aufgehoben</string>
+    <string name="plus_sign_out">Google+ Account wechseln</string>
+    <string name="prompt_email">E-Mail</string>
+    <string name="prompt_password">Passwort</string>
+    <string name="title_activity_login">Login</string>
+    <string name="browse_create_edit_browse_btn">Durchsuchen</string>
+    <string name="browse_create_edit_exit_btn">Beenden</string>
+    <string name="browse_create_edit_history_btn">Verlauf</string>
+    <string name="hello_world">Guntach!</string>
+    <string name="hello_blank_fragment">Hallo leeres Fragment</string>
+    <string name="action_register">Registrieren</string>
+    <string name="profile_edit_zip_plz">PLZ</string>
+    <string name="resultActivityFilterHint">Suchbegriff</string>
+
+    <string name="login_title">Foodshare</string>
+
+    <string name="userDataFetchingInProgress">Rufe Nutzerdaten ab ...</string>
+    <string name="userDataFetchingNotSuccessful">Nutzerdaten konnten nicht abgerufen werden: </string>
+    <string name="userDataFetchingSuccessful">Nutzerdaten erfolgreich abgerufen!</string>
+
+    <string name="offersDataFetchingInProgress">Rufe alle Angebote ab ...</string>
+    <string name="offersDataFetchingSuccessful">Angebote erfolgreich abgerufen!</string>
+    <string name="offersDataFetchingNotSuccessful">Angebote konnten nicht abgerufen werden: </string>
+
+    <string name="offerDataFetchingInProgress">Rufe Daten des Angebots ab ...</string>
+    <string name="offerDataFetchingSuccessful">Daten des Angebots erfolgreich abgerufen!</string>
+    <string name="offerDataFetchingNotSuccessful">Daten des Angebots konnten nicht abgerufen werden: </string>
+
+    <string name="offerUpdatingInProgress">Veröffentliche Angebot ...</string>
+    <string name="offerUpdatingSuccessful">Angebot erfolgreich veröffentlicht!</string>
+    <string name="offerUpdatingNotSuccessful">Angebot konnte nicht veröffentlicht werden: </string>
+
+    <string name="profileUpdatingNotSuccessful">Daten des Benutzerkontos konnten nicht gespeichert werden: </string>
+    <string name="profileUpdatingSuccessful">Daten des Benutzerkontos erfolgreich gespeichert!</string>
+    <string name="profileUpdatingInProgress">Daten des Benutzerkontos werden gespeichert ...</string>
+
+    <string name="profileDataFetchingInProgress">Rufe Nutzerdaten ab ...</string>
+    <string name="profileDataFetchingNotSuccessful">Nutzerdaten konnten nicht abgerufen werden: </string>
+    <string name="profileDataFetchingSuccessful">Nutzerdaten erfolgreich abgerufen!</string>
+
+    <string name="categoriesFetchingInProgress">Rufe Kategorien ab ...</string>
+    <string name="categoriesFetchingNotSuccessful">Kategorien konnten nicht abgerufen werden: </string>
+    <string name="categoriesFetchingSuccessful">Kategorien erfolgreich abgerufen!</string>
+
+    <string name="loginNotSuccessful">Einloggen fehlgeschlagen!</string>
+    <string name="loginInProgress">Einloggen über die Datenbank ...</string>
+
+    <string name="bigPictureSavingNotSuccessful">Großes Foto konnte nicht gespeichert werden, es wird nur die kleine Ausgabe verwendet: </string>
+
+    <string name="imageViewerStartNotSuccessful">Bildbetrachter konnte nicht gestartet werden: </string>
+
+    <string name="cameraDetectionNotSuccessful">Keine Kamera angeschlossen!</string>
+
+    <string name="offerDisplayCategories">Kategorien</string>
+
+    <string name="preferenceTitleHttpBaseUrl">HTTP Basis URL</string>
+</resources>

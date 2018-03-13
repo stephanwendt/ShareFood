@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="de.htwds.mada.foodsharing" >
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="21" />
+    <!-- To access Google+ APIs: -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!--
+     To retrieve OAuth 2.0 tokens or invalidate tokens to disconnect a user. This disconnect
+     option is required to comply with the Google+ Sign-In developer policies
+    -->
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" /> <!-- To retrieve the account name (email) as part of sign-in: -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" /> <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" /> <!-- needs access to the camera, if the device has one -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> <!-- save photos so that other apps can access it -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+        <!-- Splash Screen -->
+        <activity
+            android:name=".SplashActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/title_activity_login"
+            android:windowSoftInputMode="adjustResize|stateHidden" >
+
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".BrowseCreateEditActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".ProfileEditActivity"
+            android:label="@string/title_activity_profile_edit"
+            android:parentActivityName=".BrowseCreateEditActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".BrowseCreateEditActivity" />
+        </activity>
+        <activity
+            android:name=".ProfileDisplayActivity"
+            android:label="DisplayProfile"
+            android:parentActivityName=".BrowseCreateEditActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".BrowseCreateEditActivity" />
+        </activity>
+        <activity
+            android:name=".OfferDisplayActivity"
+            android:label="@string/title_activity_display_offer"
+            android:parentActivityName=".BrowseCreateEditActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".BrowseCreateEditActivity" />
+        </activity>
+        <activity
+            android:name=".OfferEditActivity"
+            android:label="@string/title_activity_edit_offer"
+            android:parentActivityName=".BrowseCreateEditActivity" >
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".BrowseCreateEditActivity" />
+        </activity>
+        <activity
+            android:name=".ResultActivity"
+            android:label="@string/title_activity_result"
+            android:parentActivityName=".BrowseCreateEditActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".BrowseCreateEditActivity" />
+        </activity>
+        <activity
+            android:name=".TransactionHistoryActivity"
+            android:label="@string/title_activity_transaction_history"
+            android:parentActivityName=".ProfileDisplayActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="de.htwds.mada.foodsharing.ProfileDisplayActivity" />
+        </activity>
+        <activity
+            android:name=".EditSearchActivity"
+            android:label="@string/title_activity_edit_search"
+            android:parentActivityName=".BrowseCreateEditActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".BrowseCreateEditActivity" />
+        </activity>
+        <activity
+            android:name=".SettingsActivity"
+            android:parentActivityName=".BrowseCreateEditActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".BrowseCreateEditActivity" />
+        </activity>
+    </application>
+
+</manifest>
+    <!--auskommentiert, da es probleme beim compilieren machte-->
+    <!--<android:uses-permission android:name="android.permission.READ_PHONE_STATE" />-->
+    <!--<android:uses-permission-->
+    <!--android:name="android.permission.READ_EXTERNAL_STORAGE"-->
+    <!--android:maxSdkVersion="18" />-->

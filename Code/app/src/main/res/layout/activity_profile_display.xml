@@ -1,0 +1,283 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="fill_parent"
+    android:layout_height="fill_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="de.htwds.mada.foodsharing.ProfileDisplayActivity"
+    android:orientation="vertical"
+    android:background="@android:color/holo_green_light">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/profile_title_tv"
+        android:id="@+id/profile_title_tv"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10dp"
+        android:textSize="25sp"
+        android:textColor="@color/abc_primary_text_material_dark"
+        android:textStyle="bold" />
+
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/profile_edit_last_name_tv"
+            android:id="@+id/profile_edit_last_name_tv"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/abc_primary_text_material_dark"
+            android:textStyle="bold"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/profile_edit_first_name_tv"
+            android:id="@+id/profile_edit_first_name_tv"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/abc_primary_text_material_dark"
+            android:textStyle="bold"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/profile_edit_street_address_et"
+            android:id="@+id/profileEditStreet"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/abc_primary_text_material_dark"
+            android:textStyle="bold"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/profile_edit_street_address_no_et"
+            android:id="@+id/profileEditHouseNumber"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/abc_primary_text_material_dark"
+            android:textStyle="bold"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/profile_edit_zipcode_et"
+            android:id="@+id/profileEditZipcode"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/abc_primary_text_material_dark"
+            android:textStyle="bold"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/profile_edit_place_of_res_et"
+            android:id="@+id/profileEditCity"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/abc_primary_text_material_dark"
+            android:textStyle="bold"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+<!--    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/profile_displ_country_tv"
+        android:id="@+id/profile_displ_country_tv"
+        android:layout_gravity="center_vertical"
+        android:textColor="@color/abc_primary_text_material_dark"
+        android:textStyle="bold"
+        android:textSize="15sp" />-->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/profile_displ_country_tv"
+            android:id="@+id/profile_displ_country_tv"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/abc_primary_text_material_dark"
+            android:textStyle="bold"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+<!--    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/profile_edit_phone_et"
+        android:id="@+id/profileEditPhone"
+        android:layout_gravity="center_vertical"
+        android:textColor="@color/abc_primary_text_material_dark"
+        android:textStyle="bold"
+        android:textSize="15sp" />-->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/profile_edit_phone_et"
+            android:id="@+id/profileEditPhone"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:textColor="@color/abc_primary_text_material_dark"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:ems="10" />
+    </LinearLayout>
+
+<!--    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/profile_edit_email_et"
+        android:id="@+id/profileEditEmail"
+        android:layout_gravity="center_vertical"
+        android:textColor="@color/abc_primary_text_material_dark"
+        android:textStyle="bold"
+        android:textSize="15sp" />-->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/profile_edit_email_et"
+            android:id="@+id/profileEditEmail"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:textColor="@color/abc_primary_text_material_dark"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:ems="10" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Additional"
+        android:id="@+id/profileDisplayAdditional"
+        android:layout_gravity="center_vertical"
+        android:textColor="@color/abc_primary_text_material_dark"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:ems="10" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:paddingTop="15dp"
+        android:layout_weight="1"
+        android:paddingBottom="25dp">
+
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/profile_display_username_tv"
+            android:id="@+id/profile_display_username_tv"
+            android:layout_weight="1"
+            android:layout_gravity="top"
+            android:singleLine="true"
+            android:textColor="@color/abc_primary_text_material_dark"
+            android:textStyle="bold"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/profile_display_password_tv"
+            android:id="@+id/profile_display_password_tv"
+            android:layout_weight="1"
+            android:layout_gravity="top"
+            android:singleLine="true"
+            android:textColor="@color/abc_primary_text_material_dark"
+            android:textStyle="bold"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:layout_gravity="center">
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/profile_display_edit_btn"
+            android:id="@+id/profileDisplayEditButton"
+            android:layout_weight="1"
+            android:textAllCaps="false"
+            android:onClick="buttonClicked"
+            android:textSize="12sp"
+            android:textColor="@color/abc_primary_text_material_dark"
+            android:textStyle="bold"
+            android:background="@color/blue06"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp" />
+
+        <!--<Button-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="@string/profile_display_show_tr_history"-->
+            <!--android:id="@+id/profile_edit_show_tr_history"-->
+            <!--android:layout_weight="1"-->
+            <!--android:textAllCaps="false"-->
+            <!--android:onClick="buttonClicked"-->
+            <!--android:textSize="12sp"-->
+            <!--android:textColor="@color/abc_primary_text_material_dark"-->
+            <!--android:textStyle="bold"-->
+            <!--android:background="@color/blue06"-->
+            <!--android:visibility="gone" />-->
+
+    </LinearLayout>
+
+</LinearLayout>

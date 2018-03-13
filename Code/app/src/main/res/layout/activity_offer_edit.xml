@@ -1,0 +1,344 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="de.htwds.mada.foodsharing.OfferEditActivity"
+    android:orientation="vertical"
+    android:background="@android:color/holo_green_light">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="55dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/create_offer_tv"
+            android:id="@+id/offerEditActivityTitle"
+            android:textSize="25sp"
+            android:textColor="@color/abc_primary_text_material_dark"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="55dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/offerPicture"
+            android:layout_gravity="center_horizontal"
+            android:onClick="makePictureButtonClicked"
+            android:background="@drawable/ic_action_camera"
+            android:clickable="true"
+            android:contentDescription="Add a picture"
+            android:minHeight="60dp"
+            android:minWidth="60dp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/title_tv"
+            android:hint="@string/offer_create_title_et"
+            android:textColorHint="@color/abc_primary_text_material_dark"
+            android:textStyle="bold"
+            android:textColor="@color/abc_primary_text_material_dark"
+            android:singleLine="true" />
+    </LinearLayout>
+
+<!--    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:visibility="gone">
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/offer_category_edit"
+            android:hint="@string/offer_category_edit"
+            android:textColorHint="@color/abc_primary_text_material_dark"
+            android:textStyle="bold"
+            android:textColor="@color/abc_primary_text_material_dark"
+            android:singleLine="true"
+            android:inputType="none"/>
+    </LinearLayout>-->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <Spinner
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/offerEditCategoriesSpinner"
+            android:spinnerMode="dropdown" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/offer_category_edit"
+            android:hint="@string/offer_category_edit"
+            android:textColorHint="@color/abc_primary_text_material_dark"
+            android:singleLine="true"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/best_before_date_edit"
+            android:inputType="date"
+            android:layout_weight="1"
+            android:hint="@string/best_before_date_edit"
+            android:textColorHint="@color/abc_primary_text_material_dark"
+            android:textStyle="bold"
+            android:textColor="@color/abc_primary_text_material_dark"
+            android:singleLine="true" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/detailed_description_tv"
+            android:layout_weight="1"
+            android:inputType="textAutoCorrect"
+            android:hint="@string/detailed_description_et"
+            android:textColorHint="@color/abc_primary_text_material_dark"
+            android:textStyle="bold"
+            android:textColor="@color/abc_primary_text_material_dark"
+            android:singleLine="true" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/publish_offer_btn"
+            android:id="@+id/publish_offer_btn"
+            android:layout_gravity="center_horizontal"
+            android:textAllCaps="false"
+            android:background="@color/blue06"
+            android:textColor="@color/abc_primary_text_material_dark"
+            android:textStyle="bold"
+            android:onClick="publishOfferButtonClicked" />
+    </LinearLayout>
+
+
+</LinearLayout>
+
+
+    <!--
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/offer_create_add_picture_btn"
+        android:id="@+id/button2"
+        android:layout_gravity="center_horizontal"
+        android:textAllCaps="false"
+        android:background="@color/blue06"
+        android:textColor="@color/abc_primary_text_material_dark"
+        android:textStyle="bold"
+        android:onClick="makePictureButtonClicked" />
+        -->
+
+    <!--
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+        android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        tools:context="de.htwds.mada.foodsharing.OfferEditActivity"
+        android:orientation="vertical"
+        android:background="@android:color/holo_green_light">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="55dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/create_offer_tv"
+                android:id="@+id/offerEditActivityTitle"
+                android:textSize="25sp"
+                android:textColor="@color/abc_primary_text_material_dark"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="55dp">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/offer_create_add_picture_btn"
+                android:id="@+id/button2"
+                android:layout_gravity="center_horizontal"
+                android:textAllCaps="false"
+                android:background="@color/blue06"
+                android:textColor="@color/abc_primary_text_material_dark"
+                android:textStyle="bold"
+                android:onClick="dispatchTakePictureIntent"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/title_tv"
+                android:hint="@string/offer_create_title_et"
+                android:textColorHint="@color/abc_primary_text_material_dark"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/choose_category_btn"
+                android:id="@+id/edit_category_btn"
+                android:background="@color/blue06"
+                android:textColor="@color/abc_primary_text_material_dark"
+                android:textStyle="bold"
+                android:textAllCaps="false"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="5dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="[ausgewählte Kat]"
+                android:id="@+id/chosenCategory"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="20" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/choose_mhd_btn"
+                android:id="@+id/edit_mhd_btn"
+                android:background="@color/blue06"
+                android:textColor="@color/abc_primary_text_material_dark"
+                android:textStyle="bold"
+                android:textAllCaps="false"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="5dp"
+                android:onClick="showDatePickerDialog"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="[gewähltes Datum]"
+                android:id="@+id/chosenDate"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/detailed_description_tv"
+                android:layout_weight="1"
+                android:hint="@string/detailed_description_et"
+                android:textColorHint="@color/abc_primary_text_material_dark"
+                android:textStyle="bold"
+                android:layout_gravity="center" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:orientation="vertical">
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/publish_offer_btn"
+                android:id="@+id/publish_offer_btn"
+                android:textAllCaps="false"
+                android:background="@color/blue06"
+                android:textColor="@color/abc_primary_text_material_dark"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+    -->

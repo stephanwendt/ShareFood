@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Foodsharing</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Titles -->
+    <string name="title_activity_search__browse">Search_Browse</string>
+    <string name="title_activity_result">ResultActivity</string>
+    <string name="title_activity_transaction_history">TransactionHistoryActivity</string>
+    <string name="title_activity_edit_offer">EditOffer</string>
+    <string name="title_activity_display_offer">DisplayOfferActivity</string>
+    <string name="title_activity_profile_edit">Edit profile</string>
+    <string name="title_activity_profile_display">ProfileDisplayActivity</string>
+    <string name="title_activity_account_edit">AccountEditActivity</string>
+    <string name="title_activity_account_display">AccountDisplayActivity</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="title_activity_edit_search">EditSearchActivity</string>
+
+
+
+    <!-- activity elements -->
+    <!-- text views -->
+    <string name="browse_tv">Share your food!</string>
+    <string name="create_tv">Create/ Edit</string>
+    <string name="create_edit_tv">Create/ Edit</string>
+    <string name="result_tv">Matches</string>
+    <string name="profile_title_tv">Profile</string>
+    <string name="profile_edit_last_name_tv">Last Name</string>
+    <string name="profile_edit_first_name_tv">Given Name</string>
+    <string name="title_tv">Title</string>
+    <string name="best_before_tv">Best Before</string>
+    <string name="detailed_description_tv">Detailed Description</string>
+    <string name="create_offer_tv">Create Offer</string>
+    <string name="offer_display_get_location_tv">Location</string>
+    <string name="offer_display_contact_info_tv">Contact Information</string>
+    <string name="offerDisplayDateAdded">Date added</string>
+    <string name="offerDisplayBestBeforeDate">Best before</string>
+    <string name="edit_latest_offer_tv">Edit latest Offer</string>
+    <string name="passwort_tv">Password</string>
+    <string name="username_tv">Username</string>
+    <string name="profile_display_username_tv">Username</string>
+    <string name="profile_display_password_tv">******</string>
+    <string name="transaction_history_title_tv">Transactions</string>
+    <string name="transaction_edit_tv">Edit Transaction</string>
+    <string name="profile_displ_country_tv">Country</string>
+    <string name="published_offers_tv">My Offers</string>
+    <string name="accepted_offers_tv">Accepted Offers</string>
+    <string name="resultActivityResultListTitle">Matches</string>
+    <string name="resultActivitySorterLabel">Sort by:</string>
+
+    <!-- buttons -->
+    <string name="items">Items</string>
+    <string name="search_location_btn">Location</string>
+    <string name="search_category_btn">Category</string>
+    <string name="existing_offers_btn">Existing offers</string>
+    <string name="search_profile_btn">Profiles</string>
+    <string name="edit_profile_btn">Edit Profile</string>
+    <string name="new_offer_btn">New Offer</string>
+    <string name="browse_btn">Search in</string>
+    <string name="show_location_btn">Show Location</string>
+    <string name="show_contact_information_btn">Show Contact Info</string>
+    <string name="place_order_btn">Place Order</string>
+    <string name="add_contact_info">Add Contact Info</string>
+    <string name="publish_offer_btn">Publish Offer</string>
+    <string name="get_location_btn">Get Location</string>
+    <string name="edit_offer_btn">Edit your Offer</string>
+    <string name="new_profile_btn">New Profile</string>
+    <string name="account_display_save_btn">Save</string>
+    <string name="account_display_cancel_btn">Cancel</string>
+    <string name="account_edit_save_btn">Save</string>
+    <string name="account_edit_cancel_btn">Cancel</string>
+    <string name="account_display_edit_btn">Edit</string>
+    <string name="offer_create_add_picture_btn">Add Picture</string>
+    <string name="transaction_close_tr_btn">Close</string>
+    <string name="transaction_cancel_btn">Cancel</string>
+    <string name="profile_display_edit_btn">Edit Profile</string>
+    <string name="profile_display_cancle_btn">Cancel</string>
+    <string name="transaction_back_btn">Back</string>
+    <string name="profile_edit_save_btn">Save</string>
+    <string name="edit_search_go_btn">Go!</string>
+    <string name="browse_create_new_offer_btn">New Offer</string>
+    <string name="browse_create_edit_offer_btn">Edit Your Offers</string>
+    <string name="browse_create_edit_profile_btn">Profile</string>
+    <string name="browse_create_edit_browse_btn">Browse</string>
+    <string name="choose_category_btn">Choose\nCategory</string>
+    <string name="choose_mhd_btn">Choose\nbest-before\ndate</string>
+    <string name="offer_edit_choose_pick_date_btn">New Button</string>
+    <string name="browse_create_edit_history_btn">History</string>
+    <string name="browse_create_edit_exit_btn">Exit</string>
+
+    <!-- edit texts -->
+    <string name="offer_create_title_et">Short description</string>
+    <string name="best_before_date_edit">Best before</string>
+    <string name="detailed_description_et">Detailed Description</string>
+    <string name="searching_for_hint">Item</string>
+    <string name="profile_edit_street_address_et">Street Address</string>
+    <string name="profile_edit_street_address_no_et">No.</string>
+    <string name="profile_edit_zipcode_et">Zip</string>
+    <string name="profile_edit_place_of_res_et">Place of Residence</string>
+    <string name="profile_edit_phone_et">Phone Number</string>
+    <string name="profile_edit_email_et">Email Address</string>
+    <string name="username_et">Username</string>
+    <string name="profile_display_show_tr_history">Transactions</string>
+    <string name="profile_edit_country_et">Country</string>
+    <string name="offer_display_short_description_tv">Short Description</string>
+    <string name="offer_display_best_before_tv">Best before</string>
+    <string name="offer_display_pick_up_tv">Pick up Date</string>
+    <string name="offer_category_tv">Category</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="logo">logo</string>
+    <string name="edit_search_et">Searching for…</string>
+    <string name="offer_category_edit">Category</string>
+    <string name="resultActivityFilterHint">Type search text</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="save_btn">Save</string>
+    <string name="action_register">Register</string>
+    <string name="profile_edit_zip_plz">zip</string>
+    <string name="login_title">Foodshare</string>
+
+    <string name="userDataFetchingInProgress">Retrieving user data ...</string>
+    <string name="userDataFetchingNotSuccessful">Failed to fetch user data: </string>
+    <string name="userDataFetchingSuccessful">User data fetched successfully!</string>
+
+    <string name="offersDataFetchingInProgress">Retrieving all offers ...</string>
+    <string name="offersDataFetchingSuccessful">Offer data fetched successfully!</string>
+    <string name="offersDataFetchingNotSuccessful">Failed to fetch offers!</string>
+
+    <string name="offerDataFetchingInProgress">Retrieving offer info ...</string>
+    <string name="offerDataFetchingSuccessful">Offer data fetched successfully!</string>
+    <string name="offerDataFetchingNotSuccessful">Failed to fetch offer data!</string>
+
+    <string name="offerUpdatingInProgress">Publishing offer ...</string>
+    <string name="offerUpdatingSuccessful">Offer edited successfully!</string>
+    <string name="offerUpdatingNotSuccessful">Failed to edit offers!</string>
+
+    <string name="profileUpdatingNotSuccessful">Failed to update account!</string>
+    <string name="profileUpdatingSuccessful">Account updated successfully!</string>
+    <string name="profileUpdatingInProgress">Saving profile ...</string>
+
+    <string name="profileDataFetchingInProgress">Retrieving profile info ...</string>
+    <string name="profileDataFetchingNotSuccessful">Failed to fetch profile data: </string>
+    <string name="profileDataFetchingSuccessful">Profile data fetched successfully!</string>
+
+    <string name="categoriesFetchingInProgress">Retrieving categories ...</string>
+    <string name="categoriesFetchingNotSuccessful">Failed to fetch categories: </string>
+    <string name="categoriesFetchingSuccessful">Categories fetched successfully!</string>
+
+    <string name="loginNotSuccessful">Login incorrect!</string>
+    <string name="loginInProgress">Trying to login via database ...</string>
+
+    <string name="bigPictureSavingNotSuccessful">Error trying to get big picture, only thumbnail will be acquired: </string>
+
+    <string name="imageViewerStartNotSuccessful">Could not start imageviewer: </string>
+
+    <string name="cameraDetectionNotSuccessful">No camera attached to this device!</string>
+
+    <string name="offerDisplayCategories">Categories</string>
+
+    <string name="preferenceTitleHttpBaseUrl">HTTP Base URL</string>
+</resources>

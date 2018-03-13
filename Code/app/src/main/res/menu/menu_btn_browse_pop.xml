@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/search_existing_offer_item" android:title="@string/existing_offers_btn" android:orderInCategory="1"/>
+    <item android:id="@+id/search_category_item" android:title="@string/search_category_btn" android:orderInCategory="2"/>
+    <item android:id="@+id/search_location_item" android:title="@string/search_location_btn" android:orderInCategory="3"/>
+    <item android:id="@+id/search_profile_item" android:title="@string/search_profile_btn" android:orderInCategory="4"/>
+</menu>

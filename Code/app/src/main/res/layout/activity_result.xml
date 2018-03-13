@@ -1,0 +1,90 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/holo_green_light"
+    tools:context="de.htwds.mada.foodsharing.ResultActivity">
+
+    <ProgressBar android:id="@+id/result_progress" style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp" android:visibility="gone" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/resultActivityFilter"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:hint="@string/resultActivityFilterHint" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Search"
+        android:id="@+id/resultActivitySearchButton"
+        android:layout_toRightOf="@+id/resultActivityFilter"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:visibility="gone"/>
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/resultActivityFilter"
+        android:id="@+id/resultActivityCategoriesFilter" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/resultActivitySorter"
+        android:layout_below="@+id/resultActivityCategoriesFilter">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView"
+            android:text="@string/resultActivitySorterLabel"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_vertical"
+            android:paddingRight="5dp"
+            android:paddingLeft="5dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp" />
+
+        <Spinner
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/resultActivitySortSpinner"
+            android:spinnerMode="dropdown" />
+
+    </LinearLayout>
+
+    <TextView android:text="@string/result_tv" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:id="@+id/resultActivityResultsTitle"
+        android:textColor="@color/abc_primary_text_disable_only_material_dark"
+        android:textStyle="bold"
+        android:layout_below="@+id/resultActivitySorter"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp" />
+
+
+    <ListView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/activity_result_listview"
+        android:visibility="visible"
+        android:nestedScrollingEnabled="false"
+        android:choiceMode="singleChoice"
+        android:footerDividersEnabled="false"
+        android:headerDividersEnabled="false"
+        android:clickable="true"
+        android:layout_below="@+id/resultActivityResultsTitle"
+        android:drawSelectorOnTop="false" />
+
+
+</RelativeLayout>
+
